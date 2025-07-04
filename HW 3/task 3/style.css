@@ -1,0 +1,33 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+section p{
+    width:80%;
+}
+#section-top{
+    background-color: #c26e5b;
+}
+#section-main{
+    background-color: #8aeae1;
+}
+#section-bottom{
+    background-color: #51c474;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
