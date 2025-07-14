@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.form-registration {
+    margin-top: 20px;
+    width: 30%;
+    height: 500px;
+    border: 2px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+input[type="text"], input[type="password"]{
+    width: 80%;
+    height: 35px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 80%;
+    height: 35px;
+    background: #67b4f8;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+img{
+    width:50%;
+}
+h3{
+    margin-top: 10px;
+    color: #7a7a7a;
+}
+.form-registration div:first-of-type{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
+.new-acc{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dbdbdb;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 10px;
+}
+.new-acc a{
+    font-weight: 600;
+    color: #0094f4;
+}
+
+
+.facebook-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.facebook-list li {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left center;
+    padding-left: 30px; /* відступ для іконки */
+}
+
+.facebook-list a {
+    color: #375084;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.forgot-password{
+    color: #56769a;
+    font-size: 18px;
+    font-weight: 600;
+}
